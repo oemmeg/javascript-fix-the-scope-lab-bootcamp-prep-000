@@ -3,8 +3,8 @@ var animal = 'dog'
 function myAnimal() {
   var animal = cat;
   return function yourAnimal() {
+  return animal
   }
-  return animal 
 }
 
 function add2(n) {
